@@ -1,10 +1,17 @@
+/*main-image*/
+#main-image {
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
 /*info-content*/
 .box {
-  width: 280px;
+  width: 29%;
   float: left; }
 
 .box + .box {
-  margin-left: 60px; }
+  margin-left: 6.25%; }
 
 .box-benefits-list {
   list-style: none;
@@ -12,7 +19,7 @@
   padding: 0; 
   
   li {
-  padding-left: 30px;
+  padding-left: 0.0003%;
   background-image: url(../img/check.png);
   background-repeat: no-repeat;
   background-position: top left; }
@@ -27,7 +34,7 @@
 
 /*portfolio-content*/
 .box-img {
-  width: 214.5px;
+  width: 22.3%;
   float: left; }
 
 .box-img {
@@ -36,4 +43,4 @@
 }
 
 .box-img + .box-img {
-  margin-left: 34px; }
+  margin-left: 3.5%; }

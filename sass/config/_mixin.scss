@@ -3,6 +3,12 @@
 }
 
 @mixin menu {
-    width: 655px;
+    width: 69%;
     float: right;
-    position: relative; }
+    position: relative; 
+}
+
+@function formula($num:0){
+  @return  $num / 960 * 100;
+};
+

@@ -1,8 +1,8 @@
 /*header*/
 .logo {
   float: left;
-  width: 183px;
-  margin: 0 0 px; }
+  width: 19%;
+  margin: 0px; }
 
 #nav {
  @include menu; }
@@ -24,7 +24,7 @@
   float: left; }
   
   li + li {
-  margin-left: 64px; }
+  margin-left: 6%; }
   
   a {
   @include transform;
