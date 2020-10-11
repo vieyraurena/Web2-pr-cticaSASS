@@ -18,11 +18,16 @@
 .connect-red {
   float: left; 
 
-  img {
-    max-width: 100%;
-    width: 100%;
-  }
+
 }
 
 .connect-red + .connect-red {
   margin-left: 1.5%; }
+
+
+  .connect{
+    img {
+      max-width: 100%;
+      width: 100%;
+    }
+  }

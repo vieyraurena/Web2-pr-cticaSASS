@@ -1,0 +1,54 @@
+@media (max-width: 1023px) {
+  
+  /*.space-tablet {
+    > div {
+    
+    }
+  }*/
+  
+  #nav-list{
+    display: none;
+  }
+
+  .nav-link-menu {
+    display: block;
+    margin-top: 45px;
+    text-align: right;
+  }
+  /*info-content*/
+  .box {
+    width: 100%}
+  
+  .box + .box {
+    margin-left: 0;
+    margin-top: 15px; }
+  
+  /*portfolio*/
+  .box-img{
+      width: 48%;
+      padding: 1%;
+  }
+  
+  .box-img + .box-img {
+    margin-left: 0; }
+    
+    /*blog-updates*/
+    .updates {
+      width: 100%;
+      float: none;
+    }
+    
+    .connect {
+      width: 100%;
+      float: none;
+      margin-left: 0; 
+    }
+    
+    /*footer*/
+    
+    
+    .footer-logo {
+      position: static;
+      margin-top: 15px;
+    }
+}

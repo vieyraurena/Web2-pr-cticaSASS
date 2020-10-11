@@ -14,7 +14,10 @@
   @return  $num / 960 * 100;
 };
 
+/*breakpoints*/
 
+@import 'breakpoints/tablet';
+@import 'breakpoints/movil';
 
 
 
