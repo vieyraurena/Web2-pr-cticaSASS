@@ -5,6 +5,14 @@
     
     }
   }*/
+  body{
+    font-size: 15px;
+  }
+
+  p {
+    font-size:1em;
+    line-height: 1.12em;
+    color: $primary-color } 
   
   #nav-list{
     display: none;
@@ -45,8 +53,6 @@
     }
     
     /*footer*/
-    
-    
     .footer-logo {
       position: static;
       margin-top: 15px;
