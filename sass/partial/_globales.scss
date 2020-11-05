@@ -1,18 +1,24 @@
 /*globales*/
+html{
+  font-size: 16px;
+}
+
 body {
   font-family: $general-font;
   margin: 0;
   padding: 0;
-  border-top: 17px solid $border-color; }
+  border-top: 17px solid $border-color;
+  
+}
 
 h2 {
-  font-size: 18px;
+  font-size: 1.2rem;
   padding-left: 30px;
   padding-bottom: 12px;
   background-position: 0 7px; }
 
 h3 {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-left: 23px;
   background-position: 0 5px;
   background-size: 8px; }
@@ -24,6 +30,6 @@ h2, h3 {
   background-repeat: no-repeat; }
 
 p {
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 15px;
   color: $primary-color }
